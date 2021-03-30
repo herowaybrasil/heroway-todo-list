@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="./assets/index.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- TODO SECTION -->
+    <div class="todo-section">
+      <h2>TODO</h2>
+      <div class="card animate blue">
+        <input type="text" class="card-title" placeholder="Título" />
+        <textarea class="card-description" placeholder="Descrição"></textarea>
+        <div class="color-options-container">
+          <button type="button" class="color-option animate red"></button>
+          <button type="button" class="color-option animate pink"></button>
+          <button type="button" class="color-option animate purple"></button>
+          <button type="button" class="color-option animate deep-purple"></button>
+          <button type="button" class="color-option animate indigo"></button>
+          <button type="button" class="color-option animate blue active-color"></button>
+          <button type="button" class="color-option animate cyan"></button>
+          <button type="button" class="color-option animate teal"></button>
+          <button type="button" class="color-option animate green"></button>
+          <button type="button" class="color-option animate light-green"></button>
+          <button type="button" class="color-option animate lime"></button>
+          <button type="button" class="color-option animate yellow"></button>
+          <button type="button" class="color-option animate amber"></button>
+          <button type="button" class="color-option animate orange"></button>
+          <button type="button" class="color-option animate deep-orange"></button>
+          <button type="button" class="color-option animate brown"></button>
+          <button type="button" class="card-button animate">
+            Salvar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <!-- DOING SECTION -->
+      <div class="doing-section">
+        <h2>DOING</h2>
+        <div class="card animate red">
+          <input type="text" class="card-title" placeholder="Título" value="Tomar café" />
+          <textarea class="card-description" placeholder="Descrição">Tomar café da manhã pra ficar fortinho</textarea>
+          <div class="card-buttons-container">
+            <button type="button" class="card-button animate">
+              ✖
+            </button>
+            <button type="button" class="card-button animate">
+              ✔
+            </button>
+          </div>
+        </div>
+        <div class="card animate yellow">
+          <input type="text" class="card-title" placeholder="Título" value="Estudar HTML & CSS" />
+          <textarea class="card-description" placeholder="Descrição">HTML é de boa mas e CSS... PQP!</textarea>
+          <div class="card-buttons-container">
+            <button type="button" class="card-button animate">
+              ✖
+            </button>
+            <button type="button" class="card-button animate">
+              ✔
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- DONE SECTION -->
+      <div class="done-section">
+        <h2>DONE</h2>
+        <div class="card animate indigo">
+          <input type="text" class="card-title" placeholder="Título" value="Entregar desafio de HTML & CSS" />
+          <textarea class="card-description" placeholder="Descrição">Entregar desafio do Star Wars</textarea>
+        </div>
+        <div class="card animate cyan">
+          <input type="text" class="card-title" placeholder="Título" value="Comer coxinha escondido" />
+          <textarea class="card-description"
+            placeholder="Descrição">Comer coxinha moscando na mesa dos amiguinho</textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
